@@ -68,6 +68,7 @@ elif product == "5":
     print("Тогда идём дальше!\n")
 else:
     print("У тебя недостаточно очков :(\n")
+    
 if one_artifact and two_artifact and three_artifact == True:
     print("Поздравляем, ты победил! Счёт:", points, "очков!")
 elif one_artifact and two_artifact and not three_artifact == True:
